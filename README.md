@@ -35,3 +35,6 @@ Unfortunately, you will need a developer account to put this on your phone. I wi
 
 * @Jonovono
 * jordan@howlett.io
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Jonovono/tapadoodledo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
