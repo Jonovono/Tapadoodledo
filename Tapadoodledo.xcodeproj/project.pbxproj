@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173284801883B41000B680AD /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1732847F1883B41000B680AD /* ModalViewController.m */; };
+		173284821883B7FF00B680AD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173284811883B7FF00B680AD /* AVFoundation.framework */; };
+		1732848D1885B61C00B680AD /* RecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1732848C1885B61C00B680AD /* RecordingViewController.m */; };
 		179F6AB3186A00420037B3FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F6AB2186A00420037B3FF /* Foundation.framework */; };
 		179F6AB5186A00420037B3FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F6AB4186A00420037B3FF /* CoreGraphics.framework */; };
 		179F6AB7186A00420037B3FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F6AB6186A00420037B3FF /* UIKit.framework */; };
@@ -21,6 +24,8 @@
 		179F6AD4186A00420037B3FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F6AB6186A00420037B3FF /* UIKit.framework */; };
 		179F6ADC186A00420037B3FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 179F6ADA186A00420037B3FF /* InfoPlist.strings */; };
 		179F6ADE186A00420037B3FF /* TapadoodledoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 179F6ADD186A00420037B3FF /* TapadoodledoTests.m */; };
+		179F6AE8186A00AB0037B3FF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F6AE7186A00AB0037B3FF /* CoreMotion.framework */; };
+		179F6AEA186A20E90037B3FF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F6AE9186A20E90037B3FF /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1732847E1883B41000B680AD /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModalViewController.h; path = ../ModalViewController.h; sourceTree = "<group>"; };
+		1732847F1883B41000B680AD /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModalViewController.m; path = ../ModalViewController.m; sourceTree = "<group>"; };
+		173284811883B7FF00B680AD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1732848B1885B61C00B680AD /* RecordingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingViewController.h; sourceTree = "<group>"; };
+		1732848C1885B61C00B680AD /* RecordingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingViewController.m; sourceTree = "<group>"; };
 		179F6AAF186A00420037B3FF /* Tapadoodledo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapadoodledo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		179F6AB2186A00420037B3FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		179F6AB4186A00420037B3FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,8 @@
 		179F6AD9186A00420037B3FF /* TapadoodledoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapadoodledoTests-Info.plist"; sourceTree = "<group>"; };
 		179F6ADB186A00420037B3FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		179F6ADD186A00420037B3FF /* TapadoodledoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapadoodledoTests.m; sourceTree = "<group>"; };
+		179F6AE7186A00AB0037B3FF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		179F6AE9186A20E90037B3FF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173284821883B7FF00B680AD /* AVFoundation.framework in Frameworks */,
+				179F6AEA186A20E90037B3FF /* CoreLocation.framework in Frameworks */,
+				179F6AE8186A00AB0037B3FF /* CoreMotion.framework in Frameworks */,
 				179F6AB5186A00420037B3FF /* CoreGraphics.framework in Frameworks */,
 				179F6AB7186A00420037B3FF /* UIKit.framework in Frameworks */,
 				179F6AB3186A00420037B3FF /* Foundation.framework in Frameworks */,
@@ -101,6 +116,9 @@
 		179F6AB1186A00420037B3FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				173284811883B7FF00B680AD /* AVFoundation.framework */,
+				179F6AE9186A20E90037B3FF /* CoreLocation.framework */,
+				179F6AE7186A00AB0037B3FF /* CoreMotion.framework */,
 				179F6AB2186A00420037B3FF /* Foundation.framework */,
 				179F6AB4186A00420037B3FF /* CoreGraphics.framework */,
 				179F6AB6186A00420037B3FF /* UIKit.framework */,
@@ -112,6 +130,8 @@
 		179F6AB8186A00420037B3FF /* Tapadoodledo */ = {
 			isa = PBXGroup;
 			children = (
+				1732847E1883B41000B680AD /* ModalViewController.h */,
+				1732847F1883B41000B680AD /* ModalViewController.m */,
 				179F6AC1186A00420037B3FF /* AppDelegate.h */,
 				179F6AC2186A00420037B3FF /* AppDelegate.m */,
 				179F6AC4186A00420037B3FF /* Main.storyboard */,
@@ -119,6 +139,8 @@
 				179F6AC8186A00420037B3FF /* ViewController.m */,
 				179F6ACA186A00420037B3FF /* Images.xcassets */,
 				179F6AB9186A00420037B3FF /* Supporting Files */,
+				1732848B1885B61C00B680AD /* RecordingViewController.h */,
+				1732848C1885B61C00B680AD /* RecordingViewController.m */,
 			);
 			path = Tapadoodledo;
 			sourceTree = "<group>";
@@ -249,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173284801883B41000B680AD /* ModalViewController.m in Sources */,
 				179F6AC9186A00420037B3FF /* ViewController.m in Sources */,
+				1732848D1885B61C00B680AD /* RecordingViewController.m in Sources */,
 				179F6AC3186A00420037B3FF /* AppDelegate.m in Sources */,
 				179F6ABF186A00420037B3FF /* main.m in Sources */,
 			);
@@ -377,11 +401,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tapadoodledo/Tapadoodledo-Prefix.pch";
 				INFOPLIST_FILE = "Tapadoodledo/Tapadoodledo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,11 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tapadoodledo/Tapadoodledo-Prefix.pch";
 				INFOPLIST_FILE = "Tapadoodledo/Tapadoodledo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +490,7 @@
 				179F6AE3186A00420037B3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		179F6AE4186A00420037B3FF /* Build configuration list for PBXNativeTarget "TapadoodledoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +499,7 @@
 				179F6AE6186A00420037B3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
