@@ -23,6 +23,13 @@ Unfortunately, you will need a developer account to put this on your phone. I wi
 * My phone is jailbroken, so hopefully it works on yours  as it does on mine. But if it's not running in the background, let me know.
 
 
+# TODO
+
+* I'd like to put together a better Icon
+* Perhaps add tap to get a fake phone call
+* I had an idea for an app to help you stop saying 'um/ah/etc'. If it detected those, it would vibrate. Out of my league though. 
+* Tap to share contact information with someone around you would be neat.
+
 # Questions / Contact.
 
 * @Jonovono
