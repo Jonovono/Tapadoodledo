@@ -29,6 +29,7 @@ Unfortunately, you will need a developer account to put this on your phone. I wi
 * Perhaps add tap to get a fake phone call
 * I had an idea for an app to help you stop saying 'um/ah/etc'. If it detected those, it would vibrate. Out of my league though. 
 * Tap to share contact information with someone around you would be neat.
+* Clean up the code. I basically wrote this not knowing much about objective-c. Would just Google if something was not working. I am still confused about interfaces/properties. Probably will abstract the accelerometer data into its own class. 
 
 # Questions / Contact.
 
